@@ -83,7 +83,9 @@ img {
 }
 
 #btnmenu {
-  font-size: 2rem;
+  font-size: 3rem;
+  color: #fff;
+  border: 1px solid #fff;
 }
 
 .bottomSite {

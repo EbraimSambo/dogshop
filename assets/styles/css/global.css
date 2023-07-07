@@ -88,6 +88,7 @@ img {
   border: 1px solid #fff;
   display: none;
   padding: 0.7rem;
+  cursor: pointer;
 }
 @media (max-width: 489px) {
   #btnmenu {

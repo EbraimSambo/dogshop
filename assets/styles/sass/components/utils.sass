@@ -17,7 +17,7 @@
             display: flex
             align-items: center
             gap: 1.6rem
-            @include functions.responsive(789px)
+            @include functions.responsive(489px)
                 display: none
             a,li
                 font-size: 1.4rem
@@ -37,6 +37,9 @@
     font-size: 3rem
     color: #fff
     border: 1px solid #fff
+    display: none
+    @include functions.responsive(489px)
+        display: block
 
 .bottomSite
     position: absolute

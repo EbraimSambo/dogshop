@@ -57,7 +57,7 @@ img {
   align-items: center;
   gap: 1.6rem;
 }
-@media (max-width: 789px) {
+@media (max-width: 489px) {
   .topSite nav ul {
     display: none;
   }
@@ -86,6 +86,12 @@ img {
   font-size: 3rem;
   color: #fff;
   border: 1px solid #fff;
+  display: none;
+}
+@media (max-width: 489px) {
+  #btnmenu {
+    display: block;
+  }
 }
 
 .bottomSite {

@@ -81,11 +81,6 @@ img {
 .topSite #logo {
   font-size: 2rem;
 }
-@media (max-width: 789px) {
-  .topSite #logo span:last-child {
-    display: none;
-  }
-}
 
 #btnmenu {
   font-size: 2rem;

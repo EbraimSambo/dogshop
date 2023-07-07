@@ -33,6 +33,7 @@
         @include functions.responsive(789px)
             span:last-child
                 display: none
+            font-size: 3rem
 #btnmenu
     font-size: 3rem
     color: #fff
@@ -63,6 +64,8 @@
             align-items: center
             gap: 1.2rem
             flex-wrap: wrap
+            &:hover
+                transform: scale(1.2)
     li,a
         font-weight: bold
         font-size: 1.1rem

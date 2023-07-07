@@ -1,0 +1,87 @@
+@use '../functions/functions'
+.home
+    background:  url(../../img/bg-1.jpeg) no-repeat
+    background-position: center 10%
+    background-size: cover
+    height: 100vh
+    display: flex
+    align-items: center
+    justify-content: flex-end
+    padding: 0  8%
+    clip-path: polygon(20% 0%, 80% 0%, 100% 0, 100% 80%, 82% 80%, 40% 97%, 0 100%, 0 0)
+    @include functions.responsive(1021px)
+        padding: 0 2rem
+    .content
+        width: 440px
+        h1
+            font-size: 8rem
+            @include functions.responsive(991px)
+               font-size: 6rem
+            @include functions.responsive(803px)
+               font-size: 5rem
+               transform: translateY(65px)
+            text-align: right
+            color: #fff
+            text-shadow: 2px 2px 2px #111
+    .content-desktop
+        @include functions.responsive(590px)
+            display: none
+    .cont
+        display: none
+        @include functions.responsive(590px)
+           display: flex
+           align-items: center
+           justify-content: center
+        .content-mobile
+            display: flex
+            color: #fff
+            flex-direction: column
+            justify-content: flex-end
+            font-size: 4rem
+            text-align: left
+            transform: translate(-76px,-23px)
+            @include functions.responsive(490px)
+                transform: translate(-46px,-23px)
+
+
+
+
+.services
+    background: url(../../img/bg-5.png) no-repeat
+    @include functions.responsive(789px)
+        background: none
+    background-position: center 10%
+    background-size: cover
+    height: 100vh
+    display: flex
+    align-items: center
+    justify-content: flex-start
+    padding: 6%
+    .container
+        width: 100%
+        max-width: 600px
+        h2
+            font-size: 5rem
+            margin-bottom: 2rem
+            text-shadow: 2px 2px 2px #7e7c7c
+        .grid
+            display: grid
+            grid-template-columns: repeat(2,0.89fr)
+            @include functions.responsive(659px)
+                grid-template-columns: repeat(1,1fr)
+            align-items: center
+            gap: 2rem
+            .box
+                background: #FFAF12
+                padding: 2rem
+                display: flex
+                align-items: center
+                gap: 2rem
+                box-shadow: 2px 2px 2px 2px #111111a4
+                span
+                    font-size: 3rem
+                    color: #111
+                h3
+                    font-size: 1.7rem
+                    color: #111
+

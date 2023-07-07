@@ -82,6 +82,10 @@ img {
   }
 }
 
+#btnmenu {
+  font-size: 2rem;
+}
+
 .bottomSite {
   position: absolute;
   bottom: 0;

@@ -82,16 +82,13 @@ img {
   font-size: 2rem;
 }
 @media (max-width: 789px) {
-  .topSite #logo {
-    font-size: 3rem;
-  }
   .topSite #logo span:last-child {
     display: none;
   }
 }
 
 #btnmenu {
-  font-size: 3rem;
+  font-size: 2rem;
   color: #fff;
   border: 1px solid #fff;
   display: none;

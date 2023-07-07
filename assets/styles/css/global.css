@@ -57,6 +57,11 @@ img {
   align-items: center;
   gap: 1.6rem;
 }
+@media (max-width: 789px) {
+  .topSite nav ul {
+    display: none;
+  }
+}
 .topSite nav ul a, .topSite nav ul li {
   font-size: 1.4rem;
 }
